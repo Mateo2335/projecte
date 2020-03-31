@@ -1,5 +1,5 @@
 import React from 'react'
-import usu from './Icons/user.png'
+import usu from '../Icons/user.png'
 
 const Column = props => {
     let drawerClasses = 'columna open'

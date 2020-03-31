@@ -1,6 +1,6 @@
 import React from 'react';
-import './header.css'
-import pip from './Icons/pip.png';
+import '../styles/header.css'
+import pip from '../Icons/pip.png';
 
 class Header extends React.Component{
     render(){

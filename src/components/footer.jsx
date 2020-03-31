@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './footer.css'
-import twit from './Icons/twitter.png';
-import face from './Icons/facebook.png';
-import inst from './Icons/instagram.svg';
+import '../styles/footer.css'
+import twit from '../Icons/twitter.png';
+import face from '../Icons/facebook.png';
+import inst from '../Icons/instagram.svg';
 
 class Footer extends Component{
     render(){

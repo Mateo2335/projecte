@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { Form, Button, Alert } from 'react-bootstrap/';
-import './register.css';
-import axios from 'axios'
+import '../styles/register.css';
 
 
 class Register extends Component {
@@ -14,7 +13,7 @@ class Register extends Component {
     
     showInputLogin = (e) => {
         e.preventDefault()
-        fetch('http://localhost:4000/login', {
+        fetch('http://85.56.163.142:4000/login', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -28,9 +27,8 @@ class Register extends Component {
             }) .catch(err => err)
         }
 
-    showInputRegister = (e) => {
-        e.preventDefault()
-        fetch('http://localhost:4000/register', {
+    showInputRegister = () => {
+        fetch('http://85.56.163.142:4000/register', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
