@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import { Form, Button, Alert } from 'react-bootstrap/';
+import { Form, Button } from 'react-bootstrap/';
 import '../styles/register.css';
+
 
 
 class Register extends Component {
@@ -87,7 +88,7 @@ class Register extends Component {
                     <Form.Group controlId="formBasicCheckbox">
                         <Form.Check className="check" type="checkbox" label="Check me out" />
                     </Form.Group>
-                    <Button variant="primary" type="submit">
+                    <Button variant="primary" type="button" onClick={() => {console.log(this.props.handleText)}}>
                         Submit
                     </Button>
                 </Form>
@@ -122,6 +123,10 @@ class Register extends Component {
             </div>
         </div>
     )
+
+    
 }
 }
+
+
 export default Register;

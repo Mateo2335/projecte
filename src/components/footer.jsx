@@ -7,32 +7,32 @@ import inst from '../Icons/instagram.svg';
 class Footer extends Component{
     render(){
         return  <footer>
-        <div class="footer-content">
+        <div className="footer-content">
             
-            <div class="footer-section-about">
+            <div className="footer-section-about">
                 <ul>Interes:
                     <li><a href="/Help">Ajuda</a></li>
                     <li><a href="#">Nosaltres</a></li>
                 </ul>
             </div>
             
-            <div class="footer-section-links">
+            <div className="footer-section-links">
                 <ul>Links:
                     <li><a href="https://www.youtube.com/watch?v=o-cKmAeNJiA">Footer</a></li>
                 </ul>
             </div>
             
-            <div class="footer-section-social">
+            <div className="footer-section-social">
                 <ul>Segeix-nos!   
-                    <div class="imatges-socials">
-                        <a href="https://twitter.com/home"><img src={twit} alt="Imatge de Twitter" class="twitter"/></a>
-                        <a href="https://www.facebook.com/"><img src={face} alt="Imatge de Facebook" class="facebook"/></a>
-                        <a href="https://www.instagram.com/"><img src={inst} alt="Imatge de Instagram" class="instagram"/></a>
+                    <div className="imatges-socials">
+                        <a href="https://twitter.com/home"><img src={twit} alt="Imatge de Twitter" className="twitter"/></a>
+                        <a href="https://www.facebook.com/"><img src={face} alt="Imatge de Facebook" className="facebook"/></a>
+                        <a href="https://www.instagram.com/"><img src={inst} alt="Imatge de Instagram" className="instagram"/></a>
                     </div>
                 </ul>
             </div>
         </div>
-        <div class="footer-bottom">
+        <div className="footer-bottom">
             &copy; Matthew Rivero | Luca Berni | Pau Jalencas | Ricard Carrion
         </div>
         <script src="columna.js"></script>

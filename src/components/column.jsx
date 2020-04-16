@@ -9,9 +9,9 @@ const Column = props => {
     }
 
     return (
-    <aside class={drawerClasses}>
-        <ul class="column-content">
-            <a href="#"><img src={usu} alt="Imatge de Usuari" class="usuari"/></a>
+    <aside className={drawerClasses}>
+        <ul className="column-content">
+            <a href="#"><img src={usu} alt="Imatge de Usuari" className="usuari"/></a>
             <span>Nom d'usuari</span>
             <li><a href="#">Els meus grups</a></li>
             <li><a href="#">Gestiona el compte</a></li>
